@@ -6,7 +6,7 @@ A **report** of this project's details, software and hardware specifications, an
 
 ## Abstract
 
-In this project, the aim was to exploit the interactive capabilities of the [Leap Motion sensor](https://www.ultraleap.com/product/leap-motion-controller/) to create an effective and intuitive system for detecting objects where users are not required to touch physical objects but instead make use of their bodies to achieve interaction.
+In this project, the aim was to exploit the interactive capabilities of the [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/) to create an effective and intuitive system for detecting objects where users are not required to touch physical objects but instead make use of their bodies to achieve interaction.
 The system for detecting objects additionally has the capability for remote control, as the detection rig makes use of a camera which provides the user with a live video feed, hence users do not necessarily need to be present with the objects being detected.
 The context of this object-detection system is that it may be used on-board robots or rovers to explore new territory, or for high-pressure scenarios such as bomb diffusion where operators need to efficiently survey the surrounding area without being physically present.
 
@@ -18,8 +18,8 @@ However, the Leap Motion controller allows users to instead interact via natural
 Interacting with the Leap Motion controller can trick the human brain into “feeling” like part of the system, rather than traditional methods that very much reinforce that you are operating a foreign system.
 It is insightful to see the effects on users that these intuitive interactions (via the Leap Motion controller) allowed when operating a versatile object- detection system of this nature.
 
-This project was developed with [Processing](https://processing.org), two [Arduino Uno microcontrollers](https://www.arduino.cc), and of course the [Leap Motion sensor](https://www.ultraleap.com/product/leap-motion-controller/) and its accompanying software libraries.
-The Leap Motion sensor acts as a main input to the system, where it can track users’ hands to move/activate hardware components connected to the Arduino microcontrollers or change settings of the system software in Processing.
+This project was developed with [Processing](https://processing.org), two [Arduino Uno microcontrollers](https://www.arduino.cc), and of course the [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/) and its accompanying software libraries.
+The Leap Motion Controller acts as a main input to the system, where it can track users’ hands to move/activate hardware components connected to the Arduino microcontrollers or change settings of the system software in Processing.
 The software developed in Processing acts as a central hub for the entire system, and also serves as one of the main outputs of the system as it displays a live camera feed and continuously provides feedback to users via a display screen.
 
 ## How to run the Touch-Free Remote-Controlled Object Detection Rig and Processing Sketch Code
